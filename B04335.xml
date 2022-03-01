@@ -1,0 +1,1237 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A godly dream, compyled by Elizabeth Melvil, Lady Culrosse younger. At the request of a friend.</title>
+            <author>Colville of Culross, Elizabeth Colville, Lady.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1686</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 32 KB of XML-encoded text transcribed from 9 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">B04335</idno>
+            <idno type="STC">Wing M1649A</idno>
+            <idno type="STC">ESTC R180513</idno>
+            <idno type="EEBO-CITATION">53981683</idno>
+            <idno type="OCLC">ocm 53981683</idno>
+            <idno type="VID">180286</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. B04335)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 180286)</note>
+            <note>Images scanned from microfilm: (Early English Books, 1641-1700 ; 2824:36)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A godly dream, compyled by Elizabeth Melvil, Lady Culrosse younger. At the request of a friend.</title>
+                  <author>Colville of Culross, Elizabeth Colville, Lady.</author>
+               </titleStmt>
+               <extent>16 p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.],</publisher>
+                  <pubPlace>[Glasgow? :</pubPlace>
+                  <date>Printed in the year 1686.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>Title within ornamental border.</note>
+                  <note>Place of publication suggested by Wing.</note>
+                  <note>Imperfect: cropped, tightly bound with some loss of text.</note>
+                  <note>Reproduction of the original in the National Library of Scotland.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Devotional literature --  Early works to 1800.</term>
+               <term>Religious poetry, English --  Scotland --  Early modern, 1500-1700.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-08</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-01</date>
+            <label>Megan Marion</label>Sampled and proofread</change>
+         <change>
+            <date>2011-01</date>
+            <label>Megan Marion</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:180286:1" rendition="simple:additions"/>
+            <p>A GODLY DREAM, COMPYLED BY <hi>ELIZABETH MELVIL,</hi> LADY CULROSSE younger.</p>
+            <p>At the Requeſt of a FRIEND.</p>
+            <p>
+               <hi>Introito per anguſtam portam, nam lata eſt via quae ducit ad interitum.</hi>
+            </p>
+            <p>Printed in the Year 1686.</p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:180286:2"/>
+            <head>A GODLY DREAM.</head>
+            <lg>
+               <l>UPon a day as I did mournful ſore,</l>
+               <l>For ſundry things wherewith my ſoul w<gap reason="illegible" resp="#UOM" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap> gri<gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+               </l>
+               <l>My grid increaſed and grew more and ma<gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+               </l>
+               <l>I comfort fled and could not be reliev'd.</l>
+               <l>With heavineſſe my heart was ſore miſchiev'd,</l>
+               <l>I loath'd my life, I could not eat nor drink,</l>
+               <l>I might not ſpeak, nor look to none that lived</l>
+               <l>But muſde alone and diverſe things did think.</l>
+            </lg>
+            <lg n="2">
+               <head>2</head>
+               <l>This wretched world did ſo moleſt my mind</l>
+               <l>I thought upon this falſe and iron age:</l>
+               <l>And how our hearts are ſo to vice inclin'd,</l>
+               <l>That Satan ſeem'd moſt fearfully to rage:</l>
+               <l>Nothing on earth my ſorrow could aſſwage,</l>
+               <l>I felt my ſin ſo ſtrongly to increaſe:</l>
+               <l>I griev'd the Sprit was wont to be my pledge;</l>
+               <l>My ſoul was plung'd into moſt deep diſtreſſe,</l>
+            </lg>
+            <lg n="3">
+               <head>3</head>
+               <l>All merrineſſe did aggravate my pain,</l>
+               <l>And earthly joyes did ſtill increaſe my wo:</l>
+               <l>In company I could no wayes remain,</l>
+               <l>But fled reſort, and ſo alone did go;</l>
+               <l>My ſilly ſoul was toſſed to and fro.</l>
+               <l>With ſundry thoughts which troubled me full ſore</l>
+               <l>I preaſ'd to pray, but ſighs oreſet me ſo,</l>
+               <l>I could do nought, but groan, and ſay no more.</l>
+            </lg>
+            <lg n="4">
+               <head>4</head>
+               <l>The trickling tears abundantly ran down,</l>
+               <l>My heart was eaſ'd when I had mournd my fill.</l>
+               <l>Then I began my lamentation,</l>
+               <l>And ſaid, O Lord, how long is it thy will,</l>
+               <l>That thy poor ſaints ſhall be afflicted ſtill</l>
+               <l>Alas how long ſhal ſubtile Sathan rage,</l>
+               <l>Make haſte O Lord thy promiſe to fulfil,</l>
+               <l>Make haſte to end our painful pilgrimage,</l>
+            </lg>
+            <lg n="5">
+               <head>5</head>
+               <l>The ſilly Saints are toſſed to and fro,</l>
+               <l>Awake, O Lord, why ſleepeſt thou ſo long</l>
+               <l>We have no ſtrength againſt our cruel foe,</l>
+               <l>In ſighs and ſobs now changed is our ſong:</l>
+               <pb facs="tcp:180286:2"/>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>e world prevails our enemies are ſtrong</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>e wicked rage, but we are poor and weak;</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hen thy ſelf with ſpeed; revenge thy wrong,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ke ſhort theſe dayes, even for thy choſens ſake;</l>
+            </lg>
+            <lg n="6">
+               <head>6</head>
+               <l>Lord Jeſus come and ſave thine own Elect,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>r Satan ſeeks our ſillie ſouls to ſlay:</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>he wicked world doth ſtrongly us inſect;</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>oſt wondrous ſins increaſe do day by day,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ur love growes cold, our zeal is worne away;</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ur faith is faild, and we are like to fall:</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>e Lyon roars, to catch us as a prey</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ke haſte, O Lord, before we periſh all</l>
+            </lg>
+            <lg n="7">
+               <head>7</head>
+               <l>Theſe are the dayes which thou ſo long foretold</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>uld come before this wretched world ſhould end.</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>w vice abounds and charity growes cold,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>d even thine own moſt ſtrangely do oflend.</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>e Devil prevails, his forces he doth bend,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> could be, to wrack thy children dear:</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> we are thine, therefore ſome ſuccour ſend,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>lieve our ſouls, we weary wandring here.</l>
+            </lg>
+            <lg n="8">
+               <head>8</head>
+               <l>What can we do? we clogged are with ſin,</l>
+               <l>filthy vice our ſenſleffe ſouls are drownd,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ough we reſolve we never can begin,</l>
+               <l>amend our lives, but ſin doth ſtil abound,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>en wilt thou come? when ſhal thy trumpet ſound?</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hen ſhal we ſee that great and glorious day?</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ave us Lord out of that pit profound</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> reave us from that loathſome lump of clay.</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hou knowes our hearts, thou ſees our whole deſire</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> ſecret thoughts they are not hid from thee:</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="2+ letters">
+                     <desc>••…</desc>
+                  </gap>ugh we offend, thou knowes we ſtrangely tyre,</l>
+               <l>bear this weight, our ſprit would fain be free,</l>
+            </lg>
+            <lg>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> O Lord, what pleaſure can it be,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ive in ſin, that ſore doth preffe us down.</l>
+               <l>give us wings, that we aloft my flee</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> end the fight that we may wear the crown.</l>
+               <l>Before the Lord when I had thus complained</l>
+               <pb facs="tcp:180286:3"/>
+               <l>My mind grew calm, my heart was then at reſt,</l>
+               <l>Though I was faint, from food I yet refraind,</l>
+               <l>And went to bed, becauſe I thought it beſt.</l>
+               <l>With heavineſſe my ſprite was ſore oppreſt,</l>
+               <l>I fel on ſleep, and ſo again me thought,</l>
+               <l>I made my moan, and ſo my grief increaſt,</l>
+               <l>And from the Lord with tears I ſuccour ſought.</l>
+            </lg>
+            <lg n="11">
+               <head>11</head>
+               <l>Lord Jeſus come, ſaid I and end my grief,</l>
+               <l>My ſprite is vext, the captive would be free:</l>
+               <l>All vice abounds, now ſend us ſome relief,</l>
+               <l>I loath to live, I wiſh diſſolv'd to be.</l>
+               <l>My ſprite doth long and thriſteth after thee,</l>
+               <l>As thirſtie ground requires a ſhowre of rain,</l>
+               <l>My heart is dry, as fruitleſſe barren tree,</l>
+               <l>I feel my ſelf, how can I here remain.</l>
+            </lg>
+            <lg n="12">
+               <head>12</head>
+               <l>With ſighs and ſobs, as I did ſo lament,</l>
+               <l>Into my dream, me thought there did appear,</l>
+               <l>A ſight moſt ſweet which did me wel content:</l>
+               <l>An Angel bright, with viſage ſhining clear.</l>
+               <l>With loving looks, and with a ſmiling chear,</l>
+               <l>He asked me, why are thou thus ſo ſad?</l>
+               <l>Why groans thou ſo? what doſt thou dwining here</l>
+               <l>With careful cryes in this thy bailful bed.</l>
+            </lg>
+            <lg n="13">
+               <head>13</head>
+               <l>I hear thy ſighs, I ſee thy trickling tears,</l>
+               <l>Thou ſeems to be in ſome perplexity:</l>
+               <l>What mean thy moans, what is the thing thou fear</l>
+               <l>Whom would thou have? in what place would thou</l>
+               <l>Faint not ſo faſt in thy adverſity.</l>
+               <l>Mourn not ſo fore, ſith mourning may not mend,</l>
+               <l>Life up thy heart, declare thy grief to me,</l>
+               <l>Perchance thy pain brings pleaſure in the end.</l>
+            </lg>
+            <lg n="14">
+               <head>14</head>
+               <l>I, ſigh'd again, and ſaid alas for wo,</l>
+               <l>My grief is great, I cannot it declare:</l>
+               <l>Into this earth I wander to and fro,</l>
+               <l>A pilgrim poor, conſum'd with ſighing ſore,</l>
+               <l>My ſins place, increaſe do more and more,</l>
+               <l>I loath my life, I weary wandring here:</l>
+               <pb facs="tcp:180286:3"/>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ong for heaven, my heritage is there,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ong to live with my Redeemer dear.</l>
+            </lg>
+            <lg n="15">
+               <head>15</head>
+               <l>Is this the cauſe, ſaid he: life up anone,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nd follow me; and I ſhal be thy guide:</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>e ſtrain thy ſighs, leave off thy heavy moan,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>efrain from tears, and caſt thy care aſide.</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ruſt in my ſtrength, and in my word confide,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nd thou ſhalt have thine heavy hearts deſire.</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſe up with ſpeed, I may not long abide,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>eat diligence this matter doth require.</l>
+            </lg>
+            <lg n="16">
+               <head>16</head>
+               <l>My ſoul rejoye'd to hear his words ſo ſweet,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ooked up and ſaw his face ſo fair,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>is countenance reviv'd my weary ſprite,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> continent I caſt aſide my care,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ith humble heart I prayed him to declare,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hat was his Name: he anſwer'd me again</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> am thy God for whom thou ſighs ſo ſore,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> now am come, thy tears are not in vain.</l>
+            </lg>
+            <lg n="17">
+               <head>17</head>
+               <l>I am the Way, I am the Truth and Life,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> am thy Spouſe, that brings thee ſtore of grace:</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> am thy Lord that ſoon will end thy ſtrife,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> am thy Love whom thou would fain imbrace.</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> am thy Joy, I am thy reſt and peace,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ile up anone and ſollow after me:</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> ſhall thee lead into that dwelling place,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> the land of reſt thou longs ſo ſore to ſee.</l>
+            </lg>
+            <lg n="18">
+               <head>18</head>
+               <l>With joyfull heart I thanked him again,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>eady am I, ſaid I, and well content</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> wordo follow thee, for here I live in pain,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> wretch unworth, my days untimely ſpent;</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ot one is juſt, but all are fiercely bent</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>o run to vice, I have no force to ſtand:</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>y ſins increaſe, which make me ſore lament</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ke haſte, O Lord, I long to ſee that land,</l>
+            </lg>
+            <lg n="19">
+               <head>19</head>
+               <l>Thy haſte is great, he anſwer'd me again,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ou thinſt thee there, thou art tranſported ſo;</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> pleaſant place muſt purchaſ'd be with pain.</l>
+               <pb facs="tcp:180286:4"/>
+               <l>The way is ſtrait, and thou haſt far to go.</l>
+               <l>Art thou content to wander to and fro,</l>
+               <l>Through great deſarts, through water and through</l>
+               <l>Through thorns and briers, and many dangers mo</l>
+               <l>What ſayeſt thou, thy feeble fleſh will tyre.</l>
+            </lg>
+            <lg n="20">
+               <head>20</head>
+               <l>Alace ſaid I, although my fleſh be weak,</l>
+               <l>My Sprite is ſtrong, and willing for to flee:</l>
+               <l>O leave me not, but for thy mercies ſake</l>
+               <l>Perform thy word, or elſe for dool I die.</l>
+               <l>I feel no pain ſince I ſhould follow thee,</l>
+               <l>The way is long, yet bring me through at laſt:</l>
+               <l>Thou anſweredſt well, I am content ſaid he,</l>
+               <l>To be thy guide, but ſee thou grip me faſt.</l>
+            </lg>
+            <lg n="21">
+               <head>21</head>
+               <l>Then up I roſe and made no more delay,</l>
+               <l>My feeble arms about his neck I caſt:</l>
+               <l>He went before, and ſtill did guide the way,</l>
+               <l>Though I was weak, my Sprite did follow faſt,</l>
+               <l>Through moſſe &amp; myre, through ditches deep we<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>
+               </l>
+               <l>Through pricking thorns, through water &amp; throgh</l>
+               <l>Through dreadful dens, he made my heart agaſt,</l>
+               <l>He bare me up when I began to tyre.</l>
+            </lg>
+            <lg n="22">
+               <head>22</head>
+               <l>Sometimes we clamb on c<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>aigie mountain</l>
+               <l>And ſometimes ſtay'd on ugly brayes of ſand:</l>
+               <l>They were ſo ſtay that wonder was to ſee,</l>
+               <l>But when I fear'd, he held me by the hand.</l>
+               <l>Throgh thick &amp; thin, through ſea &amp; eke through</l>
+               <l>Through great deſarts we wandred on our way,</l>
+               <l>When I was weak and had no ſtrength to ſtand,</l>
+               <l>Yet with a look he did refreſh me ay.</l>
+            </lg>
+            <lg n="23">
+               <head>23</head>
+               <l>Through waters great we were compel'd to<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>
+               </l>
+               <l>Which was ſo ſteep that I was like to drown,</l>
+               <l>Sometimes I ſank, but yet my gracious guide,</l>
+               <l>Did draw me up half dead, and in a ſwown.</l>
+               <l>In woods moſt wilde, and far from any town,</l>
+               <l>We thruſted through, the briers together ſta<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>
+               </l>
+               <l>I was ſo weak, their ſtrength did beat me <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+               </l>
+               <l>That I was forc'd for fear to flee aback.</l>
+            </lg>
+            <pb facs="tcp:180286:4"/>
+            <lg n="24">
+               <head>24</head>
+               <l>Courage ſaid he, thou art mid-way and more,</l>
+               <l>Thou muſt not tyre, nor turn aback again:</l>
+               <l>Hold faſt thy grip, on me caſt all thy care,</l>
+               <l>Affay thy ſtrength, thou ſhalt nor fight in vain;</l>
+               <l>I told thee firſt that thou ſhalt ſuffer pain,</l>
+               <l>The nearer heaven the harder is the way:</l>
+               <l>Lift up thy heart, and let thy hope remain,</l>
+               <l>Since I am guide, thou ſhalt not go aſtray.</l>
+            </lg>
+            <lg n="25">
+               <head>25</head>
+               <l>Forward we paſt on narrow bridge of tree,</l>
+               <l>Ov'r waters great, which hideouſly did roar:</l>
+               <l>There lay below, that fearfull was to ſee,</l>
+               <l>Moſt ugly beaſts that gaped to devour.</l>
+               <l>My head grew light, and troubled very ſore,</l>
+               <l>My heart did fear, my feet began to ſlide:</l>
+               <l>But when I cry'd he heard me evermore,</l>
+               <l>And helpt me up, O bleſſed be my guide.</l>
+            </lg>
+            <lg n="26">
+               <head>26</head>
+               <l>Weary I was, and thought to ſit at reſt,</l>
+               <l>But he ſaid nay: thou mayſt not ſit nor ſtand,</l>
+               <l>Hold on thy courſe, and thou ſhal find it beſt,</l>
+               <l>It thou deſires to ſee that pleaſant land.</l>
+               <l>Though I was weak I roſe at his commands</l>
+               <l>And held him faſt, at length he let me ſee</l>
+               <l>That pleaſant place that ſeem'd to be at hand.</l>
+               <l>Take courage now, for thou art near ſaid he.</l>
+            </lg>
+            <lg n="27">
+               <head>27</head>
+               <l>I looked up into that Caſtle fair,</l>
+               <l>Glistring with gold and ſhining ſilver bright</l>
+               <l>The ſtately tower did mount above the air,</l>
+               <l>They blinded me, they caſt ſo great a ſight.</l>
+               <l>My heart was glad to ſee that joyfull fight,</l>
+               <l>My voyage then I thought it not in vain:</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> him beſought to guide me there aright,</l>
+               <l>With many vows never to tyre again.</l>
+            </lg>
+            <lg n="28">
+               <head>28</head>
+               <l>Though thou be near the way is very hard,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>aid he again, therefore thou muſt be ſtout:</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>aint not for fear, for towards are debar'd</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hat have no heart to go their voyage out.</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>luck up thine heart, and grip me faſt about,</l>
+               <pb facs="tcp:180286:5"/>
+               <l>Out through this trance together we muſt go:</l>
+               <l>The way is ſtrait, remember for to lout,</l>
+               <l>If this were paſt we have not many moe.</l>
+            </lg>
+            <lg n="29">
+               <head>29</head>
+               <l>I held him faſt as he did give command,</l>
+               <l>And through the trance together then we went:</l>
+               <l>Where in the mids great pricks of iron did ſtand,</l>
+               <l>Where with my feet were all betorn and rent.</l>
+               <l>Take courage now, ſaid he, and be content,</l>
+               <l>To ſuffer this, the pleaſure comes at laſt.</l>
+               <l>I anſwered not, but ran incontinent</l>
+               <l>Out through the fire, and then the pain was paſt.</l>
+            </lg>
+            <lg n="30">
+               <head>30</head>
+               <l>When this was done my heart did daunce for</l>
+               <l>I was ſo near, I thought my voyage ended:</l>
+               <l>I ran before, and ſought not his convoy,</l>
+               <l>Nor askt the way, becauſe I thought I knew it,</l>
+               <l>On ſtately ſteps moſt ſtoutly I aſcended;</l>
+               <l>Without his help <hi>I</hi> thought to enter there:</l>
+               <l>He followed faſt and was right ſore offended,</l>
+               <l>And haſtily did draw me down the ſtair.</l>
+            </lg>
+            <lg n="31">
+               <head>31</head>
+               <l>What haſte ſaid he, why ran thou ſo before,</l>
+               <l>Without mine help thinkſt thou to climb too hie,</l>
+               <l>Come down again, thou yet muſt ſuffer more,</l>
+               <l>If thou deſires that dwelling place to ſee.</l>
+               <l>This ſtately ſtair it was not made for thee,</l>
+               <l>Holdſt thou the courſe, thou ſhalt be thruſt aback</l>
+               <l>Alace ſaid <hi>I,</hi> long wandring wearied me,</l>
+               <l>Which made me run, the neareſt way to take.</l>
+            </lg>
+            <lg n="32">
+               <head>32</head>
+               <l>Then he began to comfort me again,</l>
+               <l>And ſaid, my friend thou moſt not enter there:</l>
+               <l>Lift up thy heart thou yet muſt ſuffer pain,</l>
+               <l>The laſt aſſault of needs it muſt be ſore.</l>
+               <l>This goodly way although it ſeem ſo fair,</l>
+               <l>It is too high, thou cannot climb to ſtay;</l>
+               <l>But look below beneath a little ſtair,</l>
+               <l>And thou ſhalt ſee another kind of way.</l>
+            </lg>
+            <lg n="33">
+               <head>33</head>
+               <l>I looked down, and ſaw a pit moſt black,</l>
+               <l>Moſt full of ſmoak, and flamming fire moſt fell;</l>
+               <pb facs="tcp:180286:5"/>
+               <l>That ugly ſight made me to Hee aback,</l>
+               <l>I fear'd to hear ſo many ſhout and yell.</l>
+               <l>I him beſought that he the truth would tell,</l>
+               <l>Is this ſaid <hi>I</hi> the Papiſts purging place,</l>
+               <l>Where they affirm that ſilly ſouls do dwell,</l>
+               <l>To purge their ſins, before they reſt in peace.</l>
+            </lg>
+            <lg n="34">
+               <head>34</head>
+               <l>The brain of man muſt warely did invent</l>
+               <l>That purging place, he anſwer'd me again:</l>
+               <l>For greedineſſe together they conſent;</l>
+               <l>To ſay that ſouls in torment muſt remain,</l>
+               <l>While gold and goods relieve them of their pain.</l>
+               <l>O ſpitefull Sprits that do the ſame begin:</l>
+               <l>O blinded beaſts, your thoughts are all in vain,</l>
+               <l>By blood alone our ſouls are cleanſ'd from ſin.</l>
+            </lg>
+            <lg n="35">
+               <head>35</head>
+               <l>This pit is bell, where through thou now muſt go;</l>
+               <l>There is the way that leads to the land:</l>
+               <l>Then play the man, thou needs not tremble ſo,</l>
+               <l>For I ſhal hold and help thee by the hand.</l>
+               <l>Alace, ſaid I, I have no force to ſtand,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> fear I faint to ſee that ugly fight:</l>
+               <l>How can I come amongſt that bailful band,</l>
+               <l>Oh help me now. I have no force to fight.</l>
+            </lg>
+            <lg n="36">
+               <head>36</head>
+               <l>Of have I heard, that they that enter here,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n this great gull ſhall never come again;</l>
+               <l>Courage ſaid he, have I not bought thee dear,</l>
+               <l>My precious bloud it was not ſhed in vain,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> ſaw this place, my ſoul did taſte this pain,</l>
+               <l>Ere ere I went into my Fathers glore;</l>
+               <l>Through muſt thou go, but thou ſhalt not remain;</l>
+               <l>Thou needs not fear, for I ſhall go before.</l>
+            </lg>
+            <lg n="37">
+               <head>37</head>
+               <l>I am content to do thy whole command,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>id I again, and did him faſt embrace:</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hen loving lie he held me by the hand;</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nd in I went into that fearful place.</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>old faſt thy grip, ſaid he in anie caſe,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>et me not ſlip what ever thou ſhall ſee:</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>read not the death, but ſtoutlie forward preaſe,</l>
+               <pb facs="tcp:180286:6"/>
+               <l>For death nor hell ſhall never vanquiſh thee.</l>
+            </lg>
+            <lg n="38">
+               <head>38</head>
+               <l>His words ſo ſweet did chear my heavy heart</l>
+               <l>Incontinent I caſt my care aſide.</l>
+               <l>Courage ſaid he, play not a cowards part,</l>
+               <l>Though thou be weak, yet in my ſtrength confide</l>
+               <l>I thought me bleſt to have ſo good a guide,</l>
+               <l>Though I was weak, I knew that he was ſtrong</l>
+               <l>Under his wings I thought me for to hide;</l>
+               <l>If any there ſhould preaſe to do me wrong.</l>
+            </lg>
+            <lg n="39">
+               <head>39</head>
+               <l>Into that pit when I did enter in,</l>
+               <l>I ſaw a ſight which made me ſore agaſt.</l>
+               <l>Poor damned ſouls, tormented ſore for ſin,</l>
+               <l>In flaming fire were frying very faſt.</l>
+               <l>And ugly Sprits. And as I had them paſt,</l>
+               <l>My heart grew faint, and <hi>I</hi> began to tyre:</l>
+               <l>Ere I was ware, one gripped me full faſt,</l>
+               <l>And held me high above a flaming fire.</l>
+            </lg>
+            <lg n="40">
+               <head>40</head>
+               <l>The fire was great, the heat did pierce me ſo</l>
+               <l>My faith grew weak, my grip was very ſmall.</l>
+               <l>I trembled faſt, my fear grew more and more,</l>
+               <l>My hands did ſhake that I held him withall.</l>
+               <l>At length they looſed, then I began to fall,</l>
+               <l>And cry'd aloud, and caugh him faſt again:</l>
+               <l>Lord Jeſus come and rid me out of thrall,</l>
+               <l>Courage ſaid he, now art thou paſt the pain.</l>
+            </lg>
+            <lg n="41">
+               <head>41</head>
+               <l>With this great fear, I ſtarted and awoke,</l>
+               <l>Crying aloud, Lord Jeſus come again:</l>
+               <l>But after that no kind of reſt I took,</l>
+               <l>I preaſed to ſleep, but it was all in vain.</l>
+               <l>I would have dream'd of pleaſure after pain,</l>
+               <l>Becauſe I knew I ſhould it find at laſt,</l>
+               <l>God grant my guide may ſtill with me remain,</l>
+               <l>It is to come that I believ'd was paſt.</l>
+            </lg>
+            <lg n="42">
+               <head>42</head>
+               <l>This is a dream, and yet I thought it beſt,</l>
+               <l>To write the ſame, and keep it ſtill in mind:</l>
+               <l>Becauſe I knew there was no earthly reſt</l>
+               <l>Prepard for us that have our hearts inclin'd</l>
+               <pb facs="tcp:180286:6"/>
+               <l>To ſeek the Lord: we muſt be purg'd and ſin'd,</l>
+               <l>Our droſſe is great, the fire muſt try us ſore:</l>
+               <l>And yet our God is merciful and kind,</l>
+               <l>He ſhal remain and help us evermore.</l>
+            </lg>
+            <lg n="43">
+               <head>43</head>
+               <l>The way to heaven I ſee is very hard,</l>
+               <l>My dream declares that we have far to go,</l>
+               <l>We muſt be ſtout for cowards are debar'd,</l>
+               <l>Our fleſh of force muſt ſuffer pain and wo,</l>
+               <l>Theſe driery ways and dangers many mo,</l>
+               <l>Await for us, we cannot live in reſt:</l>
+               <l>But let us learn ſince we are warned ſo</l>
+               <l>To cleave to Chriſt, for he can help us beſt.</l>
+            </lg>
+            <lg n="44">
+               <head>44</head>
+               <l>O ſilly ſouls with care ſo ſore oppreſt;</l>
+               <l>That love the Lord, and long for heaven ſo hie,</l>
+               <l>Change not your minds, for ye have choſe the beſt,</l>
+               <l>Prepare your ſelves for troubled muſt ye be</l>
+               <l>Faint not for fear in your adverſity,</l>
+               <l>It is the way that leads you unto life;</l>
+               <l>Suffer a while and you ſhal ſhortlie ſee</l>
+               <l>The land of life, when ended is your ſtrife.</l>
+            </lg>
+            <lg n="45">
+               <head>45</head>
+               <l>In wilderneſſe ye muſt be try'd a while:</l>
+               <l>Ye<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> forward preaſe, and never flee aback:</l>
+               <l>Like Pilgrims poor, and ſtrangers in exile:</l>
+               <l>Through fair and foul, your journey you muſt take:</l>
+               <l>The devil, the world and all that they can make</l>
+               <l>Will ſend their force to ſtop you in the way:</l>
+               <l>Your fleſh will faint, and ſometimes will grow ſlack:</l>
+               <l>Yet come to Chriſt and he ſhal help you ay.</l>
+            </lg>
+            <lg n="46">
+               <head>46</head>
+               <l>The thorny cares of this deceitful life,</l>
+               <l>Will rent you hearts, and make your ſouls to bleed:</l>
+               <l>Your fleſh and ſprite will be at deadly ſtrife;</l>
+               <l>Your cruel foe will hold you ſtill in dread,</l>
+               <l>And throw you down: yet riſe again with ſpeed,</l>
+               <l>And though you fall, yet ly not loytring ſtill:</l>
+               <l>But call on Chriſt to help you in your need,</l>
+               <l>Who will not fail his promiſe to fulfill.</l>
+            </lg>
+            <lg n="47">
+               <head>47</head>
+               <l>In floods of wo, when ye are like to drown,</l>
+               <pb facs="tcp:180286:7"/>
+               <l>For climb to Chriſt, and grip him very faſt:</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>d though ye ſink, and in the deep fall down,</l>
+               <l>yet cry aloud, and he will hear at laſt.</l>
+               <l>Dread not the death, nor be not ſore agaſt,</l>
+               <l>Though all the earth againſt you ſhall conſpi<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e,</l>
+               <l>Chriſt is your guide, and when your pain is paſt,</l>
+               <l>You ſhall have joy above your hearts deſire.</l>
+            </lg>
+            <lg n="48">
+               <head>48</head>
+               <l>Though in this earth you ſhall exalted be,</l>
+               <l>Fear ſhal be left to humble you withall:</l>
+               <l>For if you climb on tops of mountains hie,</l>
+               <l>The higher up the nearer is your fall.</l>
+               <l>Your honey ſweet ſhall mixed be with gall,</l>
+               <l>Your ſhort delite ſhall end with pain and grief,</l>
+               <l>Yet truſt in God, for his aſſiſtance call,</l>
+               <l>And he ſhall help and ſend you ſoon relief.</l>
+            </lg>
+            <lg n="49">
+               <head>49</head>
+               <l>Though waters great do campaſſe you about,</l>
+               <l>Though tyrants threat, though Lions rage and roar</l>
+               <l>Defy them all, and fear not to win out,</l>
+               <l>Your guide is near to help you evermore.</l>
+               <l>Though pricks of iron do prick you very ſore,</l>
+               <l>A noyſome luſts that ſeek your ſoul to ſlay:</l>
+               <l>Yet cry on Chriſt, and he ſhall go before,</l>
+               <l>The nearer heaven the harder is the way.</l>
+            </lg>
+            <lg n="50">
+               <head>50</head>
+               <l>Run out your race, you muſt not faint nor ty<gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+               </l>
+               <l>Nor ſit, nor ſtand, nor turn aback again:</l>
+               <l>If ye intend to have your hearts deſire,</l>
+               <l>Preaſe forward ſtill, although it were with pain,</l>
+               <l>No reſt for you ſo long as you remain</l>
+               <l>As pilgrims poor into this loathſome life:</l>
+               <l>Fight on your fight; it ſhal not be in vain;</l>
+               <l>Your rich reward is worth a greater ſtrife.</l>
+            </lg>
+            <lg n="51">
+               <head>51</head>
+               <l>If after tears, I live a while in joy,</l>
+               <l>And get a raſte of that eternal glore:</l>
+               <l>Be not ſecure: nor ſlip not your convoy,</l>
+               <l>For if ye do, ye ſhall repent it ſore.</l>
+               <l>He knows the way, and he ſhall go before;</l>
+               <l>Climb ye alone: ye ſhal not miſſe a fall:</l>
+               <pb facs="tcp:180286:7"/>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>our filthie fleſh it muſt be troubled more,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> ye forget upon your God to call.</l>
+            </lg>
+            <lg n="52">
+               <head>52</head>
+               <l>If Chriſt be gone, although you ſeem to flee,</l>
+               <l>With golden wings above the firmament:</l>
+               <l>Some down again, ye ſhal not better be,</l>
+               <l>That pride of yours ye ſhall right fore repent.</l>
+               <l>Then hold him faſt with humble heart and bent,</l>
+               <l>To follow him although through hell and death:</l>
+               <l>He went before, his ſoul was torn and rent.</l>
+               <l>For your deſerts he felt his fathers wrath.</l>
+            </lg>
+            <lg n="53">
+               <head>53</head>
+               <l>Though in the end ye ſuffer torments fell,</l>
+               <l>Cleave faſt to him that felt the ſame before:</l>
+               <l>The way to heaven muſt be through death and hell,</l>
+               <l>The laſt aſſault muſt trouble you full fore.</l>
+               <l>The Lion then moſt cruellie will roar,</l>
+               <l>His time is ſhort, his forces he will bend,</l>
+               <l>The greater ſtrife, the greater is your glore,</l>
+               <l>Your pain is ſhort, your joy will never end.</l>
+            </lg>
+            <lg n="54">
+               <head>54</head>
+               <l>Rejoice in God, let not your courage fail,</l>
+               <l>Ye choſen Saints that are afflicted here,</l>
+               <l>Though Sathan rage, he never ſhal prevail,</l>
+               <l>Fight in the end, and ſtoutly perſevere:</l>
+               <l>Your God is true, your blood to him is dear,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ear not the way, ſince Chriſt is your convoy,</l>
+               <l>When clouds are paſt, the weather will grow clear,</l>
+               <l>Ye ſow in tears, but ye ſhal reap in joy.</l>
+            </lg>
+            <lg n="55">
+               <head>55</head>
+               <l>But death and hell have loſt their cruel ſting,</l>
+               <l>Your Captain Chriſt hath made them all to yeeld:</l>
+               <l>Lift up your hearts and praiſes to him ſing;</l>
+               <l>Triumph for joy, your enemies are kil'd.</l>
+               <l>The Lord of Hoſt, he is your ſtrength and ſhield,</l>
+               <l>The Serpents head hath ſtoutlie troden down:</l>
+               <l>Truſt in his ſtrength, paſſe forward in the field:</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>v'rcome in fight, and ye ſhal wear the crown,</l>
+            </lg>
+            <lg n="56">
+               <head>56</head>
+               <l>The King of kings if he be on our ſide,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e need not fear who dare againſt us ſtand:</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>o the field may we not boldlie bide,</l>
+               <pb facs="tcp:180286:8"/>
+               <l>Forcline ma<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> help us with his mightie hand.</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>no ſits above and rules both Sea and Land,</l>
+               <l>Who with his breath doth make the bills to ſhake,</l>
+               <l>The hoſt, of heaven are arm'd at his command</l>
+               <l>To fight the field when we appear moſt weak.</l>
+            </lg>
+            <lg n="57">
+               <head>57</head>
+               <l>Pluck up your hearts ye are not left alone,</l>
+               <l>The Lamb of God ſhall lead you in the way,</l>
+               <l>The Lord of Hoſts that reigns in royal throne,</l>
+               <l>Againſt your foes his banner will diſplay.</l>
+               <l>The Angels bright ſhal ſtand in good aray</l>
+               <l>To hold you up, you need not fear to fall,</l>
+               <l>Your enemies ſhal flee and be your prey,</l>
+               <l>Ye ſhal triumph, and they ſhal periſh all.</l>
+            </lg>
+            <lg n="58">
+               <head>58</head>
+               <l>The joyes of heaven are worth a moments pa<gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+               </l>
+               <l>Take courage then, lift up your heart on hie:</l>
+               <l>To judge the earth when he ſhal come again,</l>
+               <l>Above the clouds ye ſhal exalted be.</l>
+               <l>A crown of joy and true felicitie</l>
+               <l>Awaits for you, when finiſht is your fight:</l>
+               <l>Suffer a while and you ſhall ſhortlie ſee,</l>
+               <l>A glore moſt great and infinite of weight.</l>
+            </lg>
+            <lg n="59">
+               <head>59</head>
+               <l>Prepare your ſelves, the valiant men of war,</l>
+               <l>And thruſt with force out through the narrow way,</l>
+               <l>Hold on your courſe, and ſhrink not back for fear,</l>
+               <l>Chriſt is your guide you ſhal not go aſtray,</l>
+               <l>The time is near, be ſober, watch and pray,</l>
+               <l>He ſees our tears, and he hath laid in ſtore</l>
+               <l>A rich reward, which in that joyful day</l>
+               <l>Ye ſhal receive, and reign for evermore.</l>
+            </lg>
+            <lg n="60">
+               <head>60</head>
+               <l>Now to the King that creat all of nought,</l>
+               <l>The Lord of lords, that rules both land and ſea:</l>
+               <l>That ſav'd our ſouls, and with his blood us bought</l>
+               <l>And vanquiſht death triumphing on a tree.</l>
+               <l>Unto the great and glorious Trinitie,</l>
+               <l>That ſaves the poor, and doth his own defend,</l>
+               <l>Be laud and glore, honour and Majeſtie,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> and praiſe: Amen, World without end.</l>
+            </lg>
+         </div>
+         <div type="ballad">
+            <pb facs="tcp:180286:8"/>
+            <head>A GODLY BALLAD.</head>
+            <lg>
+               <l>COme ſweet Love, let ſorrow ceaſe,</l>
+               <l>come Jeſus Chriſt, come comfort me,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>me give me thy ſprite of grace,</l>
+               <l>in all my troubles to ſupport me.</l>
+            </lg>
+            <lg>
+               <l>For I have lived moſt fooliſhlie,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>rough kind-repinde, my mind-inclin'd</l>
+               <l>to everie ſin and vanitie.</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>m leud by nature born,</l>
+               <l>a ſinfull wretch by death appointed:</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>d my fathers me beforn,</l>
+               <l>and dead in ſin, yet thine Anointed</l>
+            </lg>
+            <lg>
+               <l>Thou haſt ſent down of thy free grace,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> me to die that he might be</l>
+               <l>The Mediator of my peace.</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>th came by the firſt ADAM,</l>
+               <l>for ſin where through his God he grieved:</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hriſt our ſecond Adam came,</l>
+               <l>and he brought life and him relieved</l>
+            </lg>
+            <lg>
+               <l>From death and everlaſting pain.</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>at ſame ADAM that Lamb that came,</l>
+               <l>his death hath given me life again.</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>d for ADAM did prepare</l>
+               <l>a Garden for his habitation:</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>riſt was in a Garden fair,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>roubled in mind for my ſalvation.</l>
+            </lg>
+            <lg>
+               <l>The cruel death him ſore affears</l>
+               <l>that combate, he grat and ſwat</l>
+               <l>in the Garden bloodie tears.</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>am in the Garden dwelt,</l>
+               <l>and in the Garden diſobeyed,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>riſt into a Garden felt</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>he wrath of God, and was betrayed.</l>
+            </lg>
+            <lg>
+               <l>The Jews by night with Judas came,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ar of wear, with ſpear in gear,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> take that moſt innocent Lamb.</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>m in the Garden fled,</l>
+               <pb facs="tcp:180286:9"/>
+               <l>and hid him when he had offended,</l>
+               <l>Chriſt in a Garden bade,</l>
+               <l>and in the Garden apprehended.</l>
+            </lg>
+            <lg>
+               <l>Before the Prieſt brought and exem'd</l>
+               <l>Accuſ'd, miſuſ'd, refuſ'd, they chuſ'd</l>
+               <l>
+                  <hi>Barrabas,</hi> and Chriſt condemn'd.</l>
+               <l>
+                  <hi>Adam</hi> ſinn'd becauſe becauſe that he,</l>
+               <l>eat of the fruit that was forbidden:</l>
+               <l>Chriſt the fruit was of the tree,</l>
+               <l>whereon he died, the God head hidden:</l>
+            </lg>
+            <lg>
+               <l>Was crucified between two theeves,</l>
+               <l>Wherethrow Jeſu ſav'd you, that trow,</l>
+               <l>and firmlie in his bloud believes.</l>
+               <l>
+                  <hi>Adam</hi> baniſht from the Lord,</l>
+               <l>and for fault for his foul offences:</l>
+               <l>Our <hi>Adam</hi> hath us reſtor'd,</l>
+               <l>for our faults made recompences.</l>
+            </lg>
+            <lg>
+               <l>And ſatisfied his Fathers wrath,</l>
+               <l>For all that fall, that call and ſhall</l>
+               <l>repent, and ſeek to him by faith.</l>
+               <l>It was onlie Jeſus Chriſt,</l>
+               <l>that ſuffered for thy ſins and ſmarted:</l>
+               <l>Neither Pope nor Popiſh Prieſt,</l>
+               <l>the Virgin nor the Saints departed.</l>
+            </lg>
+            <lg>
+               <l>But onlie Chriſt that holie one,</l>
+               <l>Nought than in man, that wan or can</l>
+               <l>ſave our ſouls but Chriſt alone.</l>
+               <l>I conclude, and ends here than,</l>
+               <l>its onlie Chriſt our ſouls hath ſav't,</l>
+               <l>Fie on merits and works of man,</l>
+               <l>give Chriſt the praiſe, for he ſhould have it.</l>
+            </lg>
+            <lg>
+               <l>All Praiſe to God our King therefore:</l>
+               <l>Which King us bring, to reign and ſing,</l>
+               <l>with him in his eternal glore.</l>
+            </lg>
+         </div>
+         <trailer>FINIS.</trailer>
+      </body>
+   </text>
+</TEI>
